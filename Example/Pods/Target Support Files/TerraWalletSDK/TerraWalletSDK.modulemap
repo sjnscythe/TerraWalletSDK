@@ -1,0 +1,6 @@
+framework module TerraWalletSDK {
+  umbrella header "TerraWalletSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

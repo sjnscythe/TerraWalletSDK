@@ -1,0 +1,22 @@
+{
+  "name": "TerraWalletSDK",
+  "version": "0.1.0",
+  "summary": "A short description of TerraWalletSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/103406802/TerraWalletSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "103406802": "scytheabhi97@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/103406802/TerraWalletSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TerraWalletSDK/Classes/**/*"
+}

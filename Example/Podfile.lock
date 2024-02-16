@@ -1,0 +1,16 @@
+PODS:
+  - TerraWalletSDK (0.1.0)
+
+DEPENDENCIES:
+  - TerraWalletSDK (from `../`)
+
+EXTERNAL SOURCES:
+  TerraWalletSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TerraWalletSDK: bb0fa779e2938b3f9c782fcbcea2616cbb9d4eea
+
+PODFILE CHECKSUM: e77aed8085cd5ab68639338fa7aff0ed20352171
+
+COCOAPODS: 1.13.0

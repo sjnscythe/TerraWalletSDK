@@ -1,0 +1,6 @@
+framework module Pods_TerraWalletSDK_Tests {
+  umbrella header "Pods-TerraWalletSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

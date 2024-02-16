@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15394BD0A9DBB7C042CCEF680E25DDAD /* Pods-TerraWalletSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011D84337DF4CC1C0C02E50F73BDE44 /* Pods-TerraWalletSDK_Tests-dummy.m */; };
+		2273A7F942ED46D7E862ED3E7796F7B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		34CD990B1FCB10B47B23ACEEAFFAEC60 /* Pods-TerraWalletSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C676AD60579B2178908420B750EAAB9F /* Pods-TerraWalletSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43BA0B1FFC5E4466AF4C81F7E3A1C66B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		756D4B3334ACCF662407F1DD8CA3AF75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ADB46AFB17AB66278F60178EDE9A2B37 /* TerraWalletSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E3B445389B3E2811D540A8FFC8DB46 /* TerraWalletSDK-dummy.m */; };
+		D28A1E20C3121C12A4D9113DC75122C9 /* Pods-TerraWalletSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 571ED5B817D3C8C2EAEE612960BCA696 /* Pods-TerraWalletSDK_Example-dummy.m */; };
+		DD384620B43FA6521F2123FCF01D86DC /* TerraWalletSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7624242D9A9FF602D962D722F34BC0C /* TerraWalletSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F11B86F866E2EF9C41850718EAE6F40E /* Pods-TerraWalletSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 491B4D65AD8B8A209A17CD8B53EDE280 /* Pods-TerraWalletSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEB84FCD42947A7156D2F9E6A6A82496 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E7B88AD5F111D8A5925D6B9342765 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03EF91C5713977FF0C8461C23526B8C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03BA9F614714CA5E55ABB60E1BA9B369;
+			remoteInfo = "Pods-TerraWalletSDK_Example";
+		};
+		B70D800A8A37580B5A34DC4634BA6B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A17628EC269F07945C10DC26CA97FB8;
+			remoteInfo = TerraWalletSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0011D84337DF4CC1C0C02E50F73BDE44 /* Pods-TerraWalletSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TerraWalletSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		0328A04DC3E1D4C0C05CD2B34D6BCC67 /* Pods-TerraWalletSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TerraWalletSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		3E8E7B88AD5F111D8A5925D6B9342765 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TerraWalletSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		438F5307FB4D700E6FEA3DB75E82B85D /* Pods-TerraWalletSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TerraWalletSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44B4FD1639C1125C99EB079C3303A959 /* Pods-TerraWalletSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TerraWalletSDK_Example"; path = Pods_TerraWalletSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		491B4D65AD8B8A209A17CD8B53EDE280 /* Pods-TerraWalletSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TerraWalletSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		4C792A6F5B7B7B648D4E249978ABFD68 /* Pods-TerraWalletSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TerraWalletSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E6D8C415F129FAB33FD2697EC7EED97 /* TerraWalletSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TerraWalletSDK.release.xcconfig; sourceTree = "<group>"; };
+		4F30FAC5474B87A6719499C3994F6907 /* Pods-TerraWalletSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TerraWalletSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		553B071FEE4C8217B8BFCDD20D3DA0EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		571ED5B817D3C8C2EAEE612960BCA696 /* Pods-TerraWalletSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TerraWalletSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		67D4CBED8902CD0F37FAB743C31919D6 /* Pods-TerraWalletSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TerraWalletSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		718A8B857BC59BEE4212AEA170760D81 /* Pods-TerraWalletSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TerraWalletSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		72380EC0F13B57330171C823852D02A0 /* Pods-TerraWalletSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TerraWalletSDK_Example.modulemap"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		86C6B9D8FE1B0CE4D0E9D0C11E78BCA1 /* Pods-TerraWalletSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TerraWalletSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93E3B445389B3E2811D540A8FFC8DB46 /* TerraWalletSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TerraWalletSDK-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD472881D46E1D101889D8973495BF7 /* TerraWalletSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TerraWalletSDK.modulemap; sourceTree = "<group>"; };
+		A3FAD9AE66039D348AC9A75FDF5CF820 /* Pods-TerraWalletSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TerraWalletSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A7624242D9A9FF602D962D722F34BC0C /* TerraWalletSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TerraWalletSDK-umbrella.h"; sourceTree = "<group>"; };
+		B01B66A8B5F55A337053EC55F95ECDE4 /* TerraWalletSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TerraWalletSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2C4E021CA5208106A3F49F8CAE641E4 /* TerraWalletSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TerraWalletSDK-prefix.pch"; sourceTree = "<group>"; };
+		B3815A065F378978E6ACB6A74D759DA4 /* TerraWalletSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TerraWalletSDK; path = TerraWalletSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C676AD60579B2178908420B750EAAB9F /* Pods-TerraWalletSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TerraWalletSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CC049E5DA28732B31514E438A1743F58 /* Pods-TerraWalletSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TerraWalletSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		CC56494F01B5246671189DB8488EDEB0 /* TerraWalletSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TerraWalletSDK.debug.xcconfig; sourceTree = "<group>"; };
+		D23C34F1B94CA88BDB96309C8FE058ED /* Pods-TerraWalletSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TerraWalletSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6BFA46EFD2FACEF45C87DFFC37588CC /* Pods-TerraWalletSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TerraWalletSDK_Tests"; path = Pods_TerraWalletSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAADB0FD2DD82C7CB8A09DD1A8C5D039 /* TerraWalletSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TerraWalletSDK-Info.plist"; sourceTree = "<group>"; };
+		E85EFC36470E25132891C8373BCEFFE7 /* Pods-TerraWalletSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TerraWalletSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F1374EA4C8AB7DE923DDAAA5349B79DB /* Pods-TerraWalletSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TerraWalletSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE37D80D4B2445EA9D59388EFADDC85C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9617A7898DEA39A509405BF4730E0184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2273A7F942ED46D7E862ED3E7796F7B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AB00809FAE19DD0695E11411A5CEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BA0B1FFC5E4466AF4C81F7E3A1C66B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACA68846C252F8A158D6270CD58437A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756D4B3334ACCF662407F1DD8CA3AF75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AA5D0350FF2A6B0D0C1236720045A44 /* TerraWalletSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3E8E7B88AD5F111D8A5925D6B9342765 /* ReplaceMe.swift */,
+				C6734E82A41DF09D65EE3DB13384CA61 /* Pod */,
+				C31A183DD2EC1537B273A90ACA3BFA14 /* Support Files */,
+			);
+			name = TerraWalletSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		45F02C0AF19B5F8C730259D2B7DBAB65 /* Pods-TerraWalletSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				718A8B857BC59BEE4212AEA170760D81 /* Pods-TerraWalletSDK_Tests.modulemap */,
+				E85EFC36470E25132891C8373BCEFFE7 /* Pods-TerraWalletSDK_Tests-acknowledgements.markdown */,
+				D23C34F1B94CA88BDB96309C8FE058ED /* Pods-TerraWalletSDK_Tests-acknowledgements.plist */,
+				0011D84337DF4CC1C0C02E50F73BDE44 /* Pods-TerraWalletSDK_Tests-dummy.m */,
+				CC049E5DA28732B31514E438A1743F58 /* Pods-TerraWalletSDK_Tests-Info.plist */,
+				C676AD60579B2178908420B750EAAB9F /* Pods-TerraWalletSDK_Tests-umbrella.h */,
+				4C792A6F5B7B7B648D4E249978ABFD68 /* Pods-TerraWalletSDK_Tests.debug.xcconfig */,
+				A3FAD9AE66039D348AC9A75FDF5CF820 /* Pods-TerraWalletSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-TerraWalletSDK_Tests";
+			path = "Target Support Files/Pods-TerraWalletSDK_Tests";
+			sourceTree = "<group>";
+		};
+		4D3313CC389303EB572AD4783B448FCB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E41D1B512C2480F9B90FF760B8B701FA /* Pods-TerraWalletSDK_Example */,
+				45F02C0AF19B5F8C730259D2B7DBAB65 /* Pods-TerraWalletSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6FB80BE160210249E3B15548A3E0EF7E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AA5D0350FF2A6B0D0C1236720045A44 /* TerraWalletSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		73D0424950AAF5DD1B81E5A4C42FBC7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44B4FD1639C1125C99EB079C3303A959 /* Pods-TerraWalletSDK_Example */,
+				D6BFA46EFD2FACEF45C87DFFC37588CC /* Pods-TerraWalletSDK_Tests */,
+				B3815A065F378978E6ACB6A74D759DA4 /* TerraWalletSDK */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C31A183DD2EC1537B273A90ACA3BFA14 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FD472881D46E1D101889D8973495BF7 /* TerraWalletSDK.modulemap */,
+				93E3B445389B3E2811D540A8FFC8DB46 /* TerraWalletSDK-dummy.m */,
+				DAADB0FD2DD82C7CB8A09DD1A8C5D039 /* TerraWalletSDK-Info.plist */,
+				B2C4E021CA5208106A3F49F8CAE641E4 /* TerraWalletSDK-prefix.pch */,
+				A7624242D9A9FF602D962D722F34BC0C /* TerraWalletSDK-umbrella.h */,
+				CC56494F01B5246671189DB8488EDEB0 /* TerraWalletSDK.debug.xcconfig */,
+				4E6D8C415F129FAB33FD2697EC7EED97 /* TerraWalletSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TerraWalletSDK";
+			sourceTree = "<group>";
+		};
+		C6734E82A41DF09D65EE3DB13384CA61 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FE37D80D4B2445EA9D59388EFADDC85C /* LICENSE */,
+				553B071FEE4C8217B8BFCDD20D3DA0EF /* README.md */,
+				B01B66A8B5F55A337053EC55F95ECDE4 /* TerraWalletSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6FB80BE160210249E3B15548A3E0EF7E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				73D0424950AAF5DD1B81E5A4C42FBC7B /* Products */,
+				4D3313CC389303EB572AD4783B448FCB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E41D1B512C2480F9B90FF760B8B701FA /* Pods-TerraWalletSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				72380EC0F13B57330171C823852D02A0 /* Pods-TerraWalletSDK_Example.modulemap */,
+				438F5307FB4D700E6FEA3DB75E82B85D /* Pods-TerraWalletSDK_Example-acknowledgements.markdown */,
+				F1374EA4C8AB7DE923DDAAA5349B79DB /* Pods-TerraWalletSDK_Example-acknowledgements.plist */,
+				571ED5B817D3C8C2EAEE612960BCA696 /* Pods-TerraWalletSDK_Example-dummy.m */,
+				67D4CBED8902CD0F37FAB743C31919D6 /* Pods-TerraWalletSDK_Example-frameworks.sh */,
+				0328A04DC3E1D4C0C05CD2B34D6BCC67 /* Pods-TerraWalletSDK_Example-Info.plist */,
+				491B4D65AD8B8A209A17CD8B53EDE280 /* Pods-TerraWalletSDK_Example-umbrella.h */,
+				86C6B9D8FE1B0CE4D0E9D0C11E78BCA1 /* Pods-TerraWalletSDK_Example.debug.xcconfig */,
+				4F30FAC5474B87A6719499C3994F6907 /* Pods-TerraWalletSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-TerraWalletSDK_Example";
+			path = "Target Support Files/Pods-TerraWalletSDK_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		71148D2D71BDF63E79AEA9C355EFDF0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11B86F866E2EF9C41850718EAE6F40E /* Pods-TerraWalletSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C79605E0F0B3BD565A1BFB2DACFAF90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CD990B1FCB10B47B23ACEEAFFAEC60 /* Pods-TerraWalletSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89A379B1FC3A03E2E81E1708D7D04CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD384620B43FA6521F2123FCF01D86DC /* TerraWalletSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03BA9F614714CA5E55ABB60E1BA9B369 /* Pods-TerraWalletSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0223FB04BE2BFDC7BE9BE6A4D93C0ACB /* Build configuration list for PBXNativeTarget "Pods-TerraWalletSDK_Example" */;
+			buildPhases = (
+				71148D2D71BDF63E79AEA9C355EFDF0E /* Headers */,
+				723676C679C33BA3B8E95F6CD4A9901D /* Sources */,
+				9617A7898DEA39A509405BF4730E0184 /* Frameworks */,
+				FA3DFCBA83859517C9E5EED7DCCF49DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB8AF74A2DF5DE453ABB4B8AA3BB467A /* PBXTargetDependency */,
+			);
+			name = "Pods-TerraWalletSDK_Example";
+			productName = Pods_TerraWalletSDK_Example;
+			productReference = 44B4FD1639C1125C99EB079C3303A959 /* Pods-TerraWalletSDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A17628EC269F07945C10DC26CA97FB8 /* TerraWalletSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE12629FB35F3605D6511C8BD45B219D /* Build configuration list for PBXNativeTarget "TerraWalletSDK" */;
+			buildPhases = (
+				A89A379B1FC3A03E2E81E1708D7D04CF /* Headers */,
+				12C75B087DC12DE047E91547BA2CBC8C /* Sources */,
+				D6AB00809FAE19DD0695E11411A5CEBD /* Frameworks */,
+				B224ACF1EC9DFFD15CFB3B9CF33F62BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TerraWalletSDK;
+			productName = TerraWalletSDK;
+			productReference = B3815A065F378978E6ACB6A74D759DA4 /* TerraWalletSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1AF9DDDEFBFBD5307A177F484C89BD8 /* Pods-TerraWalletSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B90CD98B7A97E86786D90852E32A8B /* Build configuration list for PBXNativeTarget "Pods-TerraWalletSDK_Tests" */;
+			buildPhases = (
+				8C79605E0F0B3BD565A1BFB2DACFAF90 /* Headers */,
+				6E5A8D4BC7979AFDF43CCAC9E0E51101 /* Sources */,
+				FACA68846C252F8A158D6270CD58437A /* Frameworks */,
+				36FBB76E058E49019F6C50CD75DC6D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4C965A2A7DA9EEAA571276C900901B /* PBXTargetDependency */,
+			);
+			name = "Pods-TerraWalletSDK_Tests";
+			productName = Pods_TerraWalletSDK_Tests;
+			productReference = D6BFA46EFD2FACEF45C87DFFC37588CC /* Pods-TerraWalletSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 73D0424950AAF5DD1B81E5A4C42FBC7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03BA9F614714CA5E55ABB60E1BA9B369 /* Pods-TerraWalletSDK_Example */,
+				A1AF9DDDEFBFBD5307A177F484C89BD8 /* Pods-TerraWalletSDK_Tests */,
+				7A17628EC269F07945C10DC26CA97FB8 /* TerraWalletSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36FBB76E058E49019F6C50CD75DC6D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B224ACF1EC9DFFD15CFB3B9CF33F62BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3DFCBA83859517C9E5EED7DCCF49DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12C75B087DC12DE047E91547BA2CBC8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB84FCD42947A7156D2F9E6A6A82496 /* ReplaceMe.swift in Sources */,
+				ADB46AFB17AB66278F60178EDE9A2B37 /* TerraWalletSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5A8D4BC7979AFDF43CCAC9E0E51101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15394BD0A9DBB7C042CCEF680E25DDAD /* Pods-TerraWalletSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723676C679C33BA3B8E95F6CD4A9901D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28A1E20C3121C12A4D9113DC75122C9 /* Pods-TerraWalletSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB8AF74A2DF5DE453ABB4B8AA3BB467A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TerraWalletSDK;
+			target = 7A17628EC269F07945C10DC26CA97FB8 /* TerraWalletSDK */;
+			targetProxy = B70D800A8A37580B5A34DC4634BA6B42 /* PBXContainerItemProxy */;
+		};
+		EF4C965A2A7DA9EEAA571276C900901B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TerraWalletSDK_Example";
+			target = 03BA9F614714CA5E55ABB60E1BA9B369 /* Pods-TerraWalletSDK_Example */;
+			targetProxy = 03EF91C5713977FF0C8461C23526B8C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		247773B4F573DE5543EE5A4C8FDDAAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C792A6F5B7B7B648D4E249978ABFD68 /* Pods-TerraWalletSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TerraWalletSDK_Tests/Pods-TerraWalletSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TerraWalletSDK_Tests/Pods-TerraWalletSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42EFED14CC1BB899FD060DF51C43B679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C6B9D8FE1B0CE4D0E9D0C11E78BCA1 /* Pods-TerraWalletSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TerraWalletSDK_Example/Pods-TerraWalletSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TerraWalletSDK_Example/Pods-TerraWalletSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		679CC02B9E6D409755DCB41E4CD9AAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3FAD9AE66039D348AC9A75FDF5CF820 /* Pods-TerraWalletSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TerraWalletSDK_Tests/Pods-TerraWalletSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TerraWalletSDK_Tests/Pods-TerraWalletSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6ED81FF75ECA00E7781125E1220D1907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E6D8C415F129FAB33FD2697EC7EED97 /* TerraWalletSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TerraWalletSDK/TerraWalletSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TerraWalletSDK/TerraWalletSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TerraWalletSDK/TerraWalletSDK.modulemap";
+				PRODUCT_MODULE_NAME = TerraWalletSDK;
+				PRODUCT_NAME = TerraWalletSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		880839893CC76205C05A5CA7217F8945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F30FAC5474B87A6719499C3994F6907 /* Pods-TerraWalletSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TerraWalletSDK_Example/Pods-TerraWalletSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TerraWalletSDK_Example/Pods-TerraWalletSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE45FFF934AF1386F35766A2A63791B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC56494F01B5246671189DB8488EDEB0 /* TerraWalletSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TerraWalletSDK/TerraWalletSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TerraWalletSDK/TerraWalletSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TerraWalletSDK/TerraWalletSDK.modulemap";
+				PRODUCT_MODULE_NAME = TerraWalletSDK;
+				PRODUCT_NAME = TerraWalletSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0223FB04BE2BFDC7BE9BE6A4D93C0ACB /* Build configuration list for PBXNativeTarget "Pods-TerraWalletSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EFED14CC1BB899FD060DF51C43B679 /* Debug */,
+				880839893CC76205C05A5CA7217F8945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B90CD98B7A97E86786D90852E32A8B /* Build configuration list for PBXNativeTarget "Pods-TerraWalletSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				247773B4F573DE5543EE5A4C8FDDAAAA /* Debug */,
+				679CC02B9E6D409755DCB41E4CD9AAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE12629FB35F3605D6511C8BD45B219D /* Build configuration list for PBXNativeTarget "TerraWalletSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE45FFF934AF1386F35766A2A63791B4 /* Debug */,
+				6ED81FF75ECA00E7781125E1220D1907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
